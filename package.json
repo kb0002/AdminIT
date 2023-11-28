@@ -2,7 +2,7 @@
   "name": "AdminIT",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kb0002.github.io/AdminIT/", // Update with your GitHub username and repository name
+  "homepage": "https://kb0002.github.io/AdminIT/", 
 
   "dependencies": {
     "@emotion/react": "^11.11.1",
