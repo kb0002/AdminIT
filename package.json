@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postdeploy": "mkdirp build",
+    "postdeploy": "mkdirp -p build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
