@@ -2,7 +2,7 @@
   "name": "AdminIT",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kb0002.github.io/AdminIT", 
+  "homepage": "https://kb0002.github.io/AdminIT/", 
 
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -22,9 +22,9 @@
 
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build", 
+    "build": "react-scripts build",
     "postdeploy": "mkdirp -p build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
