@@ -57,7 +57,7 @@ const styles = {
     padding: '10px',
     width: '100%',
     marginTop: '300px',
-    fontSize: '100px',
+    fontSize: '100%',
   },
   modal: {
     display: 'flex',
@@ -325,7 +325,7 @@ function App() {
       </main>
 
       <footer style={styles.footer}>
-        <Typography variant="body2" align="center">
+        <Typography variant="body2" align="center" style={{ fontSize: '25px' }}>
           Designed and Developed by Kumar B. Copyright © 2023. All rights reserved.
         </Typography>
       </footer>
